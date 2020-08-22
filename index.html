@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>cartavirtualentumesa</title>
+	<link rel="stylesheet" type="text/css" href="animacion.css">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link  rel="icon"   href="imagenes/logo.png" type="image/png" />
+</head>
+<body>
+	
+	<header>
+		<img src="imagenes/logo.png" alt="Logo carta virtual en tu mesa">
+		<p><span>cartavirtual</span>entumesa</p>
+	</header>
+
+	<main>
+		<h1><span>CARTA VIRTUAL</span> EN TU MESA</h1>	
+		<div id="encabezado">
+			<p >Te damos la posibilidad de tener la carta de tu local gastronómico online para que tus clientes puedan leerla con sólo escanear un código QR o acceder a una dirección URL</p>
+		<img src="imagenes/logorecortado.png" alt="Logo carta virtual en tu mesa">	
+		</div>
+		
+		<section id="como">
+			<h3 >¿CÓMO FUNCIONA?</h3>
+			<div id="comofunciona">
+				<div>
+					<p>El cliente llega y se sienta</p>
+					<img src="imagenes/como1.png" alt="El cliente se acomoda">
+				</div>
+				<div>
+					<img src="imagenes/como2.png" alt="Luego escanea el codigo QR">
+					<p>Escanea el código QR de la mesa</p>
+				</div>
+				<div>
+					<p>Mira la carta en su celular y pide</p>
+					<img src="imagenes/como3.png" alt="Lee la carta en su celu y reaiza el pedido">	
+				</div>
+			</div>
+		</section>
+		<section>
+				<div id="beneficios">
+					<h3>BENEFICIOS</h3>
+				<div>
+					<img src="imagenes/higiene.svg" alt="">
+					<h4>Higiénica</h4>
+					<p>Mantiene la higiene al no tocar una carta impresa</p>
+				</div>
+				<div id="separadorbeneficios"></div>
+				<div>
+					<img src="imagenes/reciclar.svg" alt="">
+					<h4>Ecológica</h4>
+					<p>No se imprime por lo que no es necesario utilizar papel</p>
+				</div>
+				<div id="separadorbeneficios"></div>
+
+				<div>
+					<img src="imagenes/bueno.svg" alt="">
+					<h4>Simple</h4>
+					<p>Sólo escaneando un código QR accedes a todo el menú</p>
+				</div>
+				<div id="separadorbeneficios"></div>
+
+				<div>
+					<img src="imagenes/dinero.svg" alt="">
+					<h4>Económica</h4>
+					<p>Se realiza el gasto una vez y sirve para todos los clientes</p>
+				</div>
+				<div id="separadorbeneficios"></div>
+
+				<div>
+					<img src="imagenes/actualizar.svg" alt="">
+					<h4>Actualizada</h4>
+					<p>Te permite modificar precios y novedades muy facilmente</p>
+				</div>
+				<div id="separadorbeneficios"></div>
+
+			</div>
+		</section>
+		<section id="contenedorej">
+			<div id="celuqr">
+				<img src="imagenes/celu.png" alt="">
+			</div>
+			<div id="ej">
+				<div>
+					<h5>Tener tu carta virtual es fácil</h5>
+					<p>Completá el formulario con tus datos</p>
+					<p>Nos ponemos en contacto</p>
+					<p>Nos envias tu carta</p>
+					<p>En un plazo de 72 hs tenés la carta y te enviamos el código QR</p>
+				</div>
+				<h6>Para ver un ejemplo de carta virtual escaneá el código QR o click en el botón</h6>
+				<a id="ejemplo" href="demo.html" target="_blank">VER DEMO</a>
+			</div>
+				
+		</section>
+
+		
+
+		<section id="planes">
+			<h3>PRECIOS</h3>
+			<div>
+				<h5>Básico</h5>
+				<h6 class="precio">$ 950</h6>
+				<p>Por única vez</p>
+				<ul>
+					<li>Diseño de carta virtual</li>
+					<li>Creación código QR</li>
+					<li>Botón de acceso en la página</li>
+					<li>Se cobra cada vez que haya que modificar</li>
+
+				</ul>
+				
+			</div>
+			<div>
+				<h5>Estándar</h5>
+				<h6 class="precio">$ 450</h6>
+				<p>Por mes</p>
+				<ul>
+					<li>Diseño de carta virtual personalizado</li>
+					<li>Creación código QR</li>
+					<li>Botón de acceso en la página</li>
+					<li>Modificación de carta una vez por semana</li>
+				</ul>
+			
+			</div>
+			<div>
+				<h5>Premium</h5>
+				<h6 class="precio">$ 950</h6>
+				<p>Por mes</p>
+				<ul>
+					<li>Diseño de carta virtual personalizado</li>
+					<li>Creación código QR</li>
+					<li>Botón de acceso en la página</li>
+					<li>Modificación de carta una vez por semana</li>
+					<li>Oferta semanal o banner en la carta</li>
+				</ul>
+			</div>
+		</section>
+		<section id="contacto">
+			
+			<article id="form">
+				<form action="enviar.php" method="post" class="form-consulta"> 
+							<label>Nombre <br>
+								<input type="text" name="nombre"  class="campo-form" required size="35"> <br>
+							</label>
+							<label>Email <br>
+								<input type="email" name="email"  class="campo-form" required size="43"> <br>
+							</label>
+							<label>Teléfono <br>
+								<input type="telefono" name="telefono"  class="campo-form" required size="43"> <br>
+							</label>
+							<label>Mensaje <br>
+								<textarea name="mensaje" class="campo-form" cols="43"></textarea>
+							</label>
+							<input type="submit" value="Enviar" class="btn-form">
+						</form>
+			</article>
+			<article id="redes">
+				<p>Envianos tus datos en el formulario y la opción que más te interesa y nos pondremos en contacto con vos, o hace click en el botón y mandanos un mensaje por whatsapp.</p>
+				<a href="https://wa.me/5491133923957" target="_blank"><i class="fab fa-whatsapp"></i></a>
+				<a href="mailto:christiankrenz@hotmail.com" ><h6>dd.olschoolargentina@gmail.com</h6></a>
+			</article>
+	</main>
+	<footer>
+		<a href="https://www.facebook.com/Old-School-dise%C3%B1os-103241588121041" target="_blank"><img  src="imagenes/logoos.png" alt=""></a>
+		<div>
+			<h6>Consultanos por otros servicios de diseño</h6>
+			<p>Páginas Web - Flyers - Folletos para imprimir - Manejo de redes<p> <br>
+			<p>Logos - Tarjetas Personales - Aplicaciones Web</p>
+		</div>
+		
+	</footer>
+	<script src="animacion.js"></script>
+</body>
+</html>

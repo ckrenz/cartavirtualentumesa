@@ -1,0 +1,12 @@
+h1 ,#encabezado p, #encabezado img{
+	animation-duration: 2s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    opacity: 0; 
+  }
+
+  to {
+    opacity: 1;
+  }

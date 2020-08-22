@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+}
+header{
+	background-image: url(imagenes/resto.png);
+	background-size: cover;
+	height: 500px;
+	background-repeat: no-repeat;
+}
+header h4{
+	font-size: 3em;
+	color: black;
+	text-align: center;
+	padding-top: 90px;
+}
+#contenedorheader{
+	background-color: rgba(0, 0, 0, .4);
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#logo{
+	width: 40%;
+	border: 4px solid black;
+	border-radius: 50%;
+	width: 270px;
+	height: 270px;
+	background-color: rgba(50, 50, 50, .4);
+}
+#resto{
+	width: 60%;
+}
+#resto h1{
+	text-align: center;
+	font-size: 4.5em;
+	color: white;
+	font-family: 'Libre Baskerville', serif;
+}
+#resto p{
+	text-align: center;
+	font-size: 2.6em;
+	color: white;
+	font-family: 'Libre Baskerville', serif;
+}
+
+.titulomenu{
+	display: flex;
+	align-items: center;
+	padding-left: 18%;
+	padding-top: 3%;
+}
+.titulomenu img{
+	width: 7%;
+	background-color: white;
+	z-index: 3;
+	padding-bottom: 2%;
+	padding-right: 1%;
+	padding-left: 3%;
+}
+.titulomenu h3{
+	font-size: 3em;
+	background-color: white;
+	z-index: 3;
+	padding-right: 3%;
+	padding-bottom: 2%;
+	font-family: 'Lobster', cursive;
+}
+
+.descripcionmenu{
+	width: 60%;
+	margin-left: 20%;
+
+}
+.descripcionmenu h4{
+	font-size: 1.2em;
+	padding-top: 1%;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 3%;
+	
+}
+.descripcionmenu h5{
+	font-size: 1.2em;
+	padding-top: 1%;
+	display: inline-block;
+	float: right;
+	font-family: 'Montserrat', sans-serif;
+	padding-right: 3%;	
+}
+.descripcionp{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9em;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-bottom: 1px solid black;
+	width: 56%;
+	margin-left: 22%;
+	margin-bottom: 1%
+}
+
+a{
+	border: 2px solid #56070C;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 1.8em;
+	margin: auto;
+	padding: 1.5% 2%;
+	width: 250px;
+	text-align: center;
+	margin: auto;
+	display: block;
+	color: #56070C;
+	height: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+a:hover{
+	border: 2px solid #56070C;
+	border-radius: 5px;
+	background-color: #FFD7D7;
+}
+@media only screen and (max-width: 700px) {
+	header{
+		width: 100%;
+		background-image: url(imagenes/restoresponsive.png);
+		background-size: cover;
+		height: auto;
+
+	}
+	#contenedorheader{
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+	}
+	#contenedorheader h4{
+		font-size:2.7em;
+		padding-top: 15%;
+		width: 200px;
+		text-align: center;
+	}
+	#logo{
+		margin-top: 5%;
+		width: 200px;
+		height: 200px;
+	}
+	#contenedorheader h1{
+		padding-top: 5%;
+		font-size:2.2em;
+		
+	}
+	#resto{
+		width: 100%;
+	}
+	#resto p{
+		font-size: 1.4em;
+		padding-bottom: 10%;
+	}
+	.titulomenu{
+		padding-left: 0px;
+	}
+	.titulomenu h3{
+		font-size: 2em;
+	}
+	.titulomenu img{
+		width: 11%;
+	}
+	.bordemenu{
+		width: 88%;
+		left:0;
+		top: 5px;
+		margin: 5%;
+	}
+	.bordemenu h4{
+		font-size: 4.5em;
+	}
+	.descripcionmenu{
+		margin-left: 10%;
+		width: 80%
+	}
+	.descripcionp{
+		width: 80%;
+		margin-left: 10%;
+		padding: 4% 0px 3% 0px;
+	}
+}
